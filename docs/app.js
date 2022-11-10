@@ -77,7 +77,7 @@ function buyClickMultiplier(){
 function numberWithCommas(x) { 
     return x.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
 }
-//Above found on: https://gist.github.com/jdsharp/852326/b74d36da699ed4b61472453ec31aa5141c0f49dd
+//RegEx that adds commas into larger numbers
 
 function resetGame() {
     location.reload();
