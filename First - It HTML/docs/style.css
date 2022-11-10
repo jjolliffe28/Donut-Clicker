@@ -1,0 +1,187 @@
+*{
+    font-family: 'Mali', cursive;
+}
+
+body{
+    background-color: #f4e1c6;
+}
+
+h1{
+    color: white;
+    text-shadow: 3px 2px 5px #f4a9c9;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+
+.description{
+    color: rgb(124, 112, 112);
+    text-align: center;
+    font-size: 25px;
+}
+
+h3{
+    color: white;
+    text-shadow: 3px 2px 5px #f4a9c9;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+
+
+nav{
+display: flex;
+flex-direction: row;
+background-color: pink;
+width: 15%;
+position: relative;
+}
+
+    .navbar{
+        background-color: #f4a9c9;
+        color: white;
+        cursor: pointer;
+        padding: 10px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 12px;
+        position: relative;
+    }
+
+     .active, .navbar:hover{
+         background-color: #d1466c;
+     }
+
+    .content{
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f4a9c9;
+        position: absolute;
+        top: 100%;
+        width: 95%;
+    }
+
+    nav:hover .content {
+        display: block;
+    }
+
+ @keyframes spinning {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+    }
+    
+
+.donutButton{
+    display: flex;
+    width: 25%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    animation-name: spinning;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.donutButton:hover{
+    width: 26%;
+    height: 26%;
+    cursor: pointer;
+}
+
+.shop{
+    font-size: 40px;
+    text-align: center;
+    color:white;
+    text-shadow: 3px 2px 5px #f4a9c9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.upgrades{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+h2{
+    color: #d1466c;
+    text-shadow: 2px 2px 2px white;
+    text-align: center;
+    font-size: 18pt;
+    margin-bottom: 0px;
+    margin-top: 1px;
+}
+
+.price{
+    color: white;
+    text-shadow: 3px 2px 5px #f4a9c9;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.auto-clicker{
+    padding-inline-end: 100px;
+}
+
+#purchase-auto-clicker{
+    background-color: #f4a9c9;
+    color:white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+}
+
+#purchase-auto-clicker:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #d1466c;
+}
+
+#purchase-click-multiplier{
+    background-color: #f4a9c9;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+}
+
+#purchase-click-multiplier:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #d1466c;
+}
+
+#reset-game{
+    display: flex;
+    width: 5%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    padding: 12px;
+    min-width: 30px;
+    height: 40px;
+    background-color: #f4a9c9;
+    border: none;
+    color: white;
+}
+
+#reset-game:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #d1466c;
+    align-items: center;
+}

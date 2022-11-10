@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mali&family=Roboto&display=swap" rel="stylesheet">
+    <script src="app.js" defer></script>
+    <title>Donut Clicker</title>
+</head>
+<header>
+    <nav>
+            <button type="button" class="navbar">Contact</button>
+                <div class="content">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/jack-jolliffe-b0828" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/jjolliffe28" target="_blank">GitHub</a></li>
+                        <li><a href="https://github.com/jjolliffe28" target="_blank">About Me Page</a></li>
+                        <li>Resume:</li>
+                    </ul>
+                </div>
+    </nav>
+    <h1>Donut Clicker</h1>
+    <h4 class="description">Jack the baker needs your help producing his world famous donuts!<br> Happy clicking!</h4>
+</header>
+<body>
+    <h3><span id="count">0</span> Donuts</h3>
+    <img src="./Images/donutCartoon.png" name="donutButton" id="donutSound" alt="jsButton" class="donutButton">
+    <div>
+        <p class="shop">Shop<p>
+    </div>
+        <div class="upgrades">
+            <div class="auto-clicker">
+                <p class="price">Auto Clicker</p>
+                <h2><span id="auto-clicker">100</span> Donuts</h2>
+                <button id="purchase-auto-clicker">Purchase Auto Clicker</button>
+                <h3 class="price">Total Purchased:</h3>
+                <h2><span id="auto-clicker-total"> 0</span></h2>
+            </div>
+            <div class="click-multiplier">
+                <p class="price">Click Multiplier</p>
+                <h2><span id="click-multiplier">10</span> Donuts</h2>
+                <button id="purchase-click-multiplier">Purchase Auto Clicker</button>
+                <h3 class="price">Total Purchased:</h3>
+                <h2><span id="click-multiplier-total"> 0</span></h2>
+            </div>
+    </div>
+    <button id="reset-game">Reset</button>
+</body>
+</html>
