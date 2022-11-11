@@ -1,4 +1,4 @@
-var donutSound = new Audio("./Sound/click.wav");
+var donutSound = new Audio("./docs/Sound/click.wav");
 var donutButton = document.images["donutButton"]
 var donutCounter = document.getElementById("count")
 var autoClickerTotalPurchased = document.querySelector("#auto-clicker-total")
